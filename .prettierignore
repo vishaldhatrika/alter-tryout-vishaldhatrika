@@ -1,0 +1,21 @@
+public/
+next/
+.vscode/
+node_modules/
+
+# ignore assets
+*.svg
+*.png
+*.jpg
+*.jpeg
+*.gif
+*.ico
+*.webp
+*.mp4
+
+# ignore static
+static/
+*.md
+
+# ignore build
+build/

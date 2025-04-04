@@ -1,0 +1,62 @@
+{
+	"editor.tabSize": 2,
+	"editor.insertSpaces": false, // Use tabs instead of spaces
+	"editor.detectIndentation": false, // Prevent VSCode from overriding these settings based on file content
+	"files.trimTrailingWhitespace": true,
+	"files.insertFinalNewline": true,
+  "[typescript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+	"[javascript]": {
+		"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+		"editor.formatOnSave": true
+	},
+	"editor.codeActionsOnSave": {
+		"source.fixAll.eslint": "explicit"
+	},
+	"editor.formatOnSave": false,
+	"eslint.format.enable": true,
+	"javascript.format.enable": true,
+	"javascript.format.insertSpaceAfterOpeningAndBeforeClosingEmptyBraces": false,
+	"json.schemas": [
+		{
+			"fileMatch": [
+				".prettierrc.json"
+			],
+			"url": "http://json.schemastore.org/prettierrc"
+		},
+		{
+			"fileMatch": [
+				"tslint.json"
+			],
+			"url": "http://json.schemastore.org/tslint"
+		},
+		{
+			"fileMatch": [
+				".eslintrc.json"
+			],
+			"url": "http://json.schemastore.org/eslintrc"
+		}
+	],
+	"scss.lint.duplicateProperties": "error",
+	"typescript.format.enable": true,
+	"yaml.completion": true,
+	"yaml.format.enable": true,
+	"[yaml]": {
+		"editor.defaultFormatter": "redhat.vscode-yaml",
+		"editor.tabSize": 2
+	},
+	"yaml.schemas": {
+		"http://json.schemastore.org/github-action": [
+			"action.yaml",
+			"action.yml"
+		],
+		"http://json.schemastore.org/github-workflow": [
+			"**/.github/workflows/*.yaml",
+			"**/.github/workflows/*.yml"
+		],
+		"https://raw.githubusercontent.com/jsonresume/resume-schema/v1.0.0/schema.json": "untitled:Untitled-1"
+	},
+	"typescript.tsdk": "node_modules/typescript/lib"
+}
