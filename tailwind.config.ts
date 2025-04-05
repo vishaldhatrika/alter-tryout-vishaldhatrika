@@ -14,7 +14,7 @@ export default {
       },
       fontFamily: {
         ModernGothic: ['var(--modern-gothic)', 'sans-serif'],
-      },
+      }
     },
     container: {
       center: true,
@@ -41,14 +41,14 @@ export default {
       'alter25-black-a': '#283042',
       'alter25-black-b': '#121A16',
       'alter25-black-c': '#2A373B',
-      'alter25-button-dark': '#2A373B',
+      'alter25-button-dark': '#1A1818',
       'alter25-button-dark-outline': '#7f8685',
       'alter25-button-light': '#F5F4EF',
       'alter25-button-light-hover': '#EBEBE7',
       'alter25-button-light-outline': '#DDDCDC',
       'alter25-cream-a': '#EBEBE7',
       'alter25-cream-b': '#F5F4EF',
-      'alter25-red': '#E0432E;',
+      'alter25-red': '#E0432E',
       'badge-gray': '#D5D7D8',
       'highlight-green': '#DEECDD',
       'checkmark-green': '#33912E',

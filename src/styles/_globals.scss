@@ -4,21 +4,39 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #2A373B;
+	--foreground: #1a1818;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+html {
+  font-family: var(--modern-gothic), sans-serif;
+	font-weight: 300;
+	letter-spacing: -3%;
+	line-height: 120%;
 }
-// html {
-//   font-family: var(--modern-gothic), sans-serif;
-// }
-
 body {
   color: var(--foreground);
   background: var(--background);
   font-family: var(--modern-gothic);
+}
+.HorizontalLine{
+	border: none;
+	max-height: 1px;
+	height: 1px;
+	width: 100%;
+	content: '';
+	background-color: #d5d7d8;
+}
+@media (prefers-color-scheme: dark) {
+  :root{
+    --background: #0a0a0a;
+    --foreground: #ededed;
+  }
+	body {
+		color: var(--foreground);
+		background: var(--background);
+		font-family: var(--modern-gothic);
+	}
+	nav , .mobileMenu{
+			color: #1a1818 !important;
+		}
 }
