@@ -21,7 +21,7 @@ export const Alter25Badge: React.FC<Alter25BadgeProps> = ({
 				className={clsx(
 				'text-base',
 				'font-normal',
-				'text-alter-black-80'
+				'text-foreground opacity-80'
       )}
 			>
 				{darkText}
@@ -30,7 +30,7 @@ export const Alter25Badge: React.FC<Alter25BadgeProps> = ({
 				className={clsx(
 				'text-base',
 				'font-light',
-				'text-alter-black-80'
+				'text-foreground opacity-80'
 
       )}
 			>

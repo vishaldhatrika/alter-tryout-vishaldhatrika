@@ -89,7 +89,7 @@ export const ProductDescription: React.FC<ProductDescriptionProps> = ({
 			</div>
 
 			{/* Buy Now mobile btn */}
-			<Alter25Button href="/shop/swab-kit" text="Buy Now" size="lg" className='w-full hidden lg:block'></Alter25Button>
+			<Alter25Button href="/shop/swab-kit" text="Buy Now" size="lg" className='w-full hidden lg:block' style='light'></Alter25Button>
     </div>
   );
 };
