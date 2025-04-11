@@ -1,5 +1,9 @@
 # Alter Developer Tryout
+This project is a take-home technical assignment that demonstrates the implementation of a fully responsive product landing page based on a professional Figma design. Built with React and TypeScript, the page focuses on reusable components, design fidelity, and clean architecture. I followed industry-standard linting practices and used GitHub Issues to document pending features and enhancements.
 
+A fully responsive product landing page built from a professional Figma design using React and TypeScript. The project showcases a clean, modular architecture with reusable components and design fidelity across breakpoints. Code quality was ensured through strict linting rules and GitHub Issue tracking for enhancements.
+
+Tech Stack: React, TypeScript, SCSS, CSS, Tailwind
 
 ## Output Screenshot
 
