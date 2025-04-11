@@ -4,3 +4,11 @@
 @import './embla';
 @import './nav';
 
+
+
+.tick-list-item{
+	list-style-image: url('/svg/navigation/check-mark.svg');
+}
+.tick-list{
+	list-style-position: inside;
+}

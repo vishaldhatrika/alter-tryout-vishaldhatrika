@@ -50,13 +50,13 @@ export const TopNav: React.FC = () => {
             </Link>
             <div className="container flex justify-between items-center">
               <span id="leftSideNaveItems" className="flex gap-8">
-                <Link href="/why-alter" className="hidden md:block">
+                <Link href="/why-alter" className="hidden lg:block">
                   Why Alter
                 </Link>
-                <Link href="/learn/system" className="hidden md:block">
+                <Link href="/learn/system" className="hidden lg:block">
                   How It Works
                 </Link>
-                <Link href="/pricing" className="hidden md:block">
+                <Link href="/pricing" className="hidden lg:block">
                   Pricing
                 </Link>
               </span>

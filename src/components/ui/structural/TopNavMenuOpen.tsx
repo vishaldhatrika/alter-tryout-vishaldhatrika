@@ -21,7 +21,7 @@ export const TopNavMenuOpen: React.FC<TopNavMenuOpenProps> = ({ className }) => 
         className,
         'mobileMenu',
         'z-50',
-        'absolute right-0 block lg:hidden bg-white w-full md:max-w-[70%]'
+        'absolute right-0 block lg:hidden bg-white w-full md:max-w-[70%] '
       )}
     >
       <div className="container p-6">

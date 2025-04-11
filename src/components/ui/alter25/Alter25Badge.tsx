@@ -1,27 +1,41 @@
 import clsx from 'clsx';
 
-interface Alter25BadgeProps {
-  darkText: string;
-  lightText: string;
-  icon?: React.ReactNode;
-}
+import { Alter25BadgeProps } from '@/models/badge.model';
 
 export const Alter25Badge: React.FC<Alter25BadgeProps> = ({
   darkText,
   lightText,
-  icon,
+  icon: Icon,
 }: Alter25BadgeProps) => {
   return (
     <span
       className={clsx(
         'inline-flex flex-nowrap items-center gap-1 py-1 px-3',
         'rounded border border-1 border-badge-gray',
-        'tracking-[-0.48px]'
+        'tracking-[-0.48px] text-foreground'
       )}
     >
-      {icon}
-      <span className="text-base text-alter-black/80">{darkText}</span>
-      <span className="text-base text-alter-black/80 font-light">{lightText}</span>
+      {Icon && <Icon />}
+
+    	<span
+				className={clsx(
+				'text-base',
+				'font-normal',
+				'text-foreground opacity-80'
+      )}
+			>
+				{darkText}
+			</span>
+      <span
+				className={clsx(
+				'text-base',
+				'font-light',
+				'text-foreground opacity-80'
+
+      )}
+			>
+				{lightText}
+			</span>
     </span>
   );
 };

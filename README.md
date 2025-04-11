@@ -1,6 +1,19 @@
 # Alter Developer Tryout
 
+
+## Output Screenshot
+
+![Screenshot_to Demo](https://github.com/vishaldhatrika/alter-tryout-vishaldhatrika/blob/feature/ALT-1/Output-Demo.png)
+
+
+- Reference the Figma file
+  - <https://www.figma.com/design/GFh4DVANBiNk2nIuj1UJuC/Alter-Dev-Tryout>
+
+
+
 This is a tryout for a web develop position at Alter.
+
+
 
 It simulates a typical work assignment from a design we have already built.
 
